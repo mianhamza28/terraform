@@ -1,0 +1,7 @@
+terraform.lock.hcl
+.terraform
+terraform\.terraform\providers\registry.terraform.io\hashicorp\aws\5.80.0\windows_amd64\LICENSE.txt
+terra-key1.pub
+terraform.tfstate
+terraform\terraform.tfstate.backup
+terraform\.terraform.lock.hcl
