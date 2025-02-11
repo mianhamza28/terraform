@@ -2,6 +2,17 @@
 
 This Terraform configuration creates **3 EC2 instances** in AWS using the `aws_instance` resource. Each instance is tagged with a unique name, and the public IP addresses of all instances are outputted.
 
+### 🌍 Define AWS Provider (providers.tf)
+```terraform
+vim providers.tf
+```
+Paste the following:
+```terraform
+provider "aws" {
+  region = "us-east-1"
+}
+```
+
 ## Code
 
 ```hcl
